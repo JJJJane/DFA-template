@@ -101,7 +101,7 @@ if __name__ == '__main__':
     copy_files_to_dir(sourceSrcfiles, dsDir)
 
 
-    dsDir = BASE_DIR + 'model/symptom/'
+    dsDir = BASE_DIR + 'model/corpus/'
     sourceSrcfiles = [BASE_DIR + 'model/excel_to_config/excel_data/op.txt',
                       BASE_DIR + 'model/excel_to_config/excel_data/entity.txt'
                       ]
